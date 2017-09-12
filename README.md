@@ -3,22 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+AscensionTest application uses Rails 5.1.4 and ruby 2.4.1. Both are specified in the Gemfile 
+(although Ruby can be removed from there). 
 
-* Ruby version
+After cloning the application please run: 
 
-* System dependencies
 
-* Configuration
+> rails db:create
+> rails db:migrate
+> rails db:seed
 
-* Database creation
+The seed will generate three users with each of roles available: Community, Support, and Admin. Admin users are the only users that can modify other users' roles, although Support users can see all users in the system. Admin users cannot modify their own role, but they can modify other admin users' roles. For emails and passwords please see the seeds.rb file under db.
 
-* Database initialization
+It features RSpec with Capybara features tests, Sqlite, and Bootstrap for a bit of pre-built CSS.
 
-* How to run the test suite
+To run tests please run > rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A logged-in user can update their own password, and I also added first and last name in order to identify users easily.
