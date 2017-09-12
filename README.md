@@ -23,4 +23,4 @@ To run tests please run
 
 > rspec
 
-A logged-in user can update their own password, and I also added first and last name in order to identify users easily.
+A logged-in user can update their own password, and I also added first and last name in order to identify users more easily.
