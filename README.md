@@ -1,6 +1,6 @@
 # README
 
-AscensionTest application uses Rails 5.1.4 and ruby 2.4.1. Both are specified in the Gemfile 
+The AscensionTest Rails application uses Rails 5.1.4 and ruby 2.4.1. Both are specified in the Gemfile 
 (although Ruby can be removed from there). 
 
 After cloning the application please run: 
