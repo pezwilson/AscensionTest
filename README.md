@@ -1,8 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 AscensionTest application uses Rails 5.1.4 and ruby 2.4.1. Both are specified in the Gemfile 
 (although Ruby can be removed from there). 
 
